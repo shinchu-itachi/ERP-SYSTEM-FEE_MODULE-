@@ -1,6 +1,6 @@
 Hello there !!!
 
-The above folders contains the source codes files for the Fee Module project. The Module has been created by students of Department of Computer Application of NIT JSR. ( Niteesh Kumar , Rohit Tiwari , and Monu Verma)
+The above folders contains the source codes files for the Fee Module project. 
 
 In this fee module , online database/ collection is used (MongoDB) Here for payment we have use the RazorPay Payment Gateway to accept the payments from the user , currently it is in test mode.
 
