@@ -1,0 +1,30 @@
+.content-box-stu{
+  height: 100% !important;
+  color:#e1b12c;
+}
+
+.notice{
+  align-items: flex-end;
+  text-align: center;
+  font-size: 20px;
+  color : #f5f6fa;
+
+}
+
+strong{
+  text-decoration: underline;
+}
+
+input{
+  padding-top: 2px;
+  text-decoration-color: none;
+  size : 50px;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: whitesmoke;
+  
+}

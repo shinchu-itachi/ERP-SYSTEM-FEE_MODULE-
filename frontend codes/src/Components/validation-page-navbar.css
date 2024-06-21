@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    display: inherit;
+}
+
+nav {
+    background-color:rgba(0,0,0, 1);
+    height: 75px;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px rgba(0,0,0, 1);
+}
+
+.navbar-heading {
+    font-size: 30px;
+    color: #f1f2f6;
+    font-family: 'Consolas' , sans-serif;
+    font-weight: 100vw;
+    text-shadow: -1px 0px 3px #f3ca50;
+}
+
+.navbar-clg-name-800 {
+    display: none;
+}
+
+.navbar-clg-name {
+    text-shadow: -1px 0 1px #f3ca50;
+    text-align: right;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Avro', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200vh;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .navbar-heading {
+        font-size: 30px;
+        font-family: 'Consolas', sans-serif;
+    }
+    .navbar-clg-name {
+        visibility: none;
+        display: none;
+    }
+    .navbar-clg-name-800 {
+        display: none;
+    }
+    /* The width is 100%, when the viewport is 800px or smaller */
+}
+
+
+@media screen and ( max-width : 550px){
+    .navbar-clg-name-800{
+        display: none;
+    }
+}
+    
+
+@media screen and (max-width: 990px) {
+   
+    .navbar-heading{
+        font-size: 30px;
+    }
+    .navbar-clg-name {
+        display: none;
+    }
+    .navbar-clg-name-800 {
+        display: flex;
+        align-content: flex-end;
+        text-decoration: none;
+        text-shadow: 0 0 20px #f6e58d;
+        font-size: 30px;
+        font-style: "Roberto", Times Now Roman;
+        color: wheat;
+    }
+}
